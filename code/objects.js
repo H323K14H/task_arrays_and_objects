@@ -21,7 +21,6 @@ tortoise = {
   age: 7,
   breed: "Eastern Hermanns",
   colours: ["yellow", "brown", "black"],
-  favouriteFood: "dandelion"
 };
 
 /**
@@ -70,6 +69,7 @@ console.log(parrot);
  * Q6. Ella's favourite food is dandelion, add this information to her object
  */
 
+tortoise.favouriteFood = "dandelion"
 console.log(tortoise);
 
 /**
