@@ -20,7 +20,9 @@ console.log(stations);
  * It doesn't go as far as Dundee either, so remove it from the start of the array.
  */
 
-// console.log(stations);
+stations.shift()
+
+console.log(stations);
 
 
 
