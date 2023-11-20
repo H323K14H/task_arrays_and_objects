@@ -41,7 +41,10 @@ console.log(england);
  * Q2. Change the capital of Wales to "Cardiff"
  */
 
-wales = null;
+wales = unitedKingdom.find(country => country.name === "Wales");
+wales.capital = "Cardiff";
+
+console.log(wales);
 
 // console.log(wales);
 
